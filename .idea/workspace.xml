@@ -5,7 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de8eb599-9a93-446d-9a13-8aa40f0c24a6" name="Changes" comment="update 2">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cyberguardian-backend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cyberguardian-backend.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cyberguardian/service/AppScanService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cyberguardian/service/AppScanService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cyberguardian/CyberGuardianApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cyberguardian/CyberGuardianApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cyberguardian/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cyberguardian/controller/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cyberguardian/controller/ScanController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cyberguardian/controller/ScanController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cyberguardian/model/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cyberguardian/model/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cyberguardian/model/Permission.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cyberguardian/model/Permission.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cyberguardian/model/RiskPrediction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cyberguardian/model/RiskPrediction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cyberguardian/repository/ApplicationRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cyberguardian/repository/ApplicationRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cyberguardian/repository/PermissionRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cyberguardian/repository/PermissionRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cyberguardian/repository/RiskPredictionRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cyberguardian/repository/RiskPredictionRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cyberguardian/service/AppScanService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cyberguardian/service/AppScanService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +44,13 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -40,7 +62,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/0Kaizoku/CyberGuardian.git&quot;,
+    &quot;url&quot;: &quot;https://github.com/0Kaizoku/cyberguardian-backend.git&quot;,
     &quot;accountId&quot;: &quot;3a7c57ae-e2a4-43c1-b93d-8fb83ecf00fc&quot;
   }
 }</component>
@@ -49,7 +71,7 @@
   &quot;isMigrated&quot;: true
 }</component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -62,6 +84,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.MLModelIntegrationTest.executor": "Run",
+    "JUnit.ScanControllerTest (1).executor": "Run",
+    "JUnit.ScanControllerTest (2).executor": "Run",
+    "JUnit.ScanControllerTest.executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -71,16 +97,19 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.CyberGuardianApplication.executor": "Run",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/amine/OneDrive/Desktop/testcyberguardian",
+    "last_directory_selection": "C:/Users/amine/OneDrive/Desktop/java/cyberguardian/cyberguardian-backend/src/main/java/com/cyberguardian/test",
+    "last_opened_file_path": "C:/Users/amine/OneDrive/Desktop/java/cyberguardian/cyberguardian-backend/src",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.24367817",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -92,14 +121,71 @@
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.cyberguardian.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\amine\OneDrive\Desktop\java\cyberguardian\cyberguardian-backend\src\" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.MLModelIntegrationTest">
+    <configuration name="MLModelIntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cyberguardian-backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cyberguardian.integration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="PACKAGE_NAME" value="com.cyberguardian.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.cyberguardian.controller.MLModelIntegrationTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScanControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cyberguardian-backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cyberguardian.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="PACKAGE_NAME" value="com.cyberguardian.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.cyberguardian.controller.ScanControllerTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CyberGuardianApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <module name="cyberguardian-backend" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.cyberguardian.CyberGuardianApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.MLModelIntegrationTest" />
+      <item itemvalue="JUnit.ScanControllerTest" />
+      <item itemvalue="Spring Boot.CyberGuardianApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MLModelIntegrationTest" />
+        <item itemvalue="JUnit.ScanControllerTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -127,6 +213,8 @@
       <workItem from="1747533160443" duration="849000" />
       <workItem from="1747534099204" duration="9000" />
       <workItem from="1747534709888" duration="1701000" />
+      <workItem from="1747705930296" duration="2745000" />
+      <workItem from="1747709232752" duration="4400000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />

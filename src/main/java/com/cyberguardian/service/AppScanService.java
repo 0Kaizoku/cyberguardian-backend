@@ -123,7 +123,7 @@ public class AppScanService {
         // Call ML service (FastAPI)
         Map<String, Object> response = webClientBuilder.build()
             .post()
-            .uri("http://localhost:8080/predict")
+            .uri("http://localhost:8000/predict")
             .bodyValue(requestData)
             .retrieve()
             .bodyToMono(Map.class)
