@@ -4,23 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de8eb599-9a93-446d-9a13-8aa40f0c24a6" name="Changes" comment="update 2">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+    <list default="true" id="de8eb599-9a93-446d-9a13-8aa40f0c24a6" name="Changes" comment="working backend">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cyberguardian-backend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cyberguardian-backend.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cyberguardian/service/AppScanService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cyberguardian/service/AppScanService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cyberguardian/CyberGuardianApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cyberguardian/CyberGuardianApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cyberguardian/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cyberguardian/controller/HomeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cyberguardian/controller/ScanController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cyberguardian/controller/ScanController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cyberguardian/model/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cyberguardian/model/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cyberguardian/model/Permission.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cyberguardian/model/Permission.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cyberguardian/model/RiskPrediction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cyberguardian/model/RiskPrediction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cyberguardian/repository/ApplicationRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cyberguardian/repository/ApplicationRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cyberguardian/repository/PermissionRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cyberguardian/repository/PermissionRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cyberguardian/repository/RiskPredictionRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cyberguardian/repository/RiskPredictionRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cyberguardian/service/AppScanService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cyberguardian/service/AppScanService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +114,7 @@
       <recent name="C:\Users\amine\OneDrive\Desktop\java\cyberguardian\cyberguardian-backend\src\" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MLModelIntegrationTest">
+  <component name="RunManager" selected="Spring Boot.CyberGuardianApplication">
     <configuration name="MLModelIntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cyberguardian-backend" />
       <extension name="coverage">
@@ -214,7 +199,7 @@
       <workItem from="1747534099204" duration="9000" />
       <workItem from="1747534709888" duration="1701000" />
       <workItem from="1747705930296" duration="2745000" />
-      <workItem from="1747709232752" duration="4400000" />
+      <workItem from="1747709232752" duration="11469000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -232,7 +217,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747535739662</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="working backend">
+      <option name="closed" value="true" />
+      <created>1747713730334</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1747713730334</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,6 +245,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update" />
     <MESSAGE value="update 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="update 2" />
+    <MESSAGE value="working backend" />
+    <option name="LAST_COMMIT_MESSAGE" value="working backend" />
   </component>
 </project>
