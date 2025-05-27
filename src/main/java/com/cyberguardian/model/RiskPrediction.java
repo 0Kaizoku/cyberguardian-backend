@@ -26,6 +26,12 @@ public class RiskPrediction {
     @Column(name = "risk_label")
     private String riskLabel;
     
+    @Column(name = "backend_risk_score")
+    private Double backendRiskScore;
+    
+    @Column(name = "backend_risk_label")
+    private String backendRiskLabel;
+    
     @Column(name = "timestamp")
     private LocalDateTime timestamp = LocalDateTime.now();
 }

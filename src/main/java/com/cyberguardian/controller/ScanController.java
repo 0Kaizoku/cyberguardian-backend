@@ -20,6 +20,7 @@ public class ScanController {
 
     @PostMapping("/analyzeApp")
     public ResponseEntity<?> analyzeApp(@RequestBody Map<String, Object> request) {
+        System.out.println("Received request: " + request);
         try {
             String packageName = (String) request.get("package_name");
             String appName = (String) request.get("app_name");
@@ -38,6 +39,8 @@ public class ScanController {
                 "package_name", packageName,
                 "risk_score", prediction.getRiskScore(),
                 "risk_label", prediction.getRiskLabel(),
+                "backend_risk_score", prediction.getBackendRiskScore(),
+                "backend_risk_label", prediction.getBackendRiskLabel(),
                 "timestamp", prediction.getTimestamp()
             ));
         } catch (Exception e) {
