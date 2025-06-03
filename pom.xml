@@ -65,12 +65,6 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>com.growingio.android</groupId>
-			<artifactId>okhttp3</artifactId>
-			<version>4.3.0</version>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
 			<groupId>eu.the4thfloor.mockwebserver</groupId>
 			<artifactId>com.squareup.okhttp.mockwebserver</artifactId>
 			<version>2.4.0</version>

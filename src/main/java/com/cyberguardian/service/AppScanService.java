@@ -44,23 +44,20 @@ public class AppScanService {
         double backendRiskScore = PermissionChecker.calculatePermissionBasedRiskScore(permissionNames);
         String backendRiskLabel = PermissionChecker.determineRiskLevel(backendRiskScore);
 
-        // Map permissions for ML model
-        List<String> mappedPermissions = PermissionMapper.mapPermissions(permissionNames);
-
-        // Send to ML service for prediction (with mapped permissions)
-        RiskPrediction mlPrediction = predictRisk(application, mappedPermissions);
-
         // Optionally, you can create a new RiskPrediction object or extend it to include backend risk
-        // For now, we update the application risk level based on backend risk
         application.setRiskLevel(backendRiskLabel);
         application.setLastScanDate(LocalDateTime.now());
         applicationRepository.save(application);
 
-        // Set backend risk in the prediction object (if you want to return both)
-        mlPrediction.setBackendRiskScore(backendRiskScore);
-        mlPrediction.setBackendRiskLabel(backendRiskLabel);
-
-        return mlPrediction;
+        // Return a RiskPrediction object using only backend risk
+        RiskPrediction prediction = new RiskPrediction();
+        prediction.setApplication(application);
+        prediction.setBackendRiskScore(backendRiskScore);
+        prediction.setBackendRiskLabel(backendRiskLabel);
+        prediction.setRiskScore(backendRiskScore);
+        prediction.setRiskLabel(backendRiskLabel);
+        prediction.setTimestamp(LocalDateTime.now());
+        return prediction;
     }
     
     /**

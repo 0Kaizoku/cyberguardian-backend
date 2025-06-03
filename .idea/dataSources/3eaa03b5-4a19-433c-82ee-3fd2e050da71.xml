@@ -3,7 +3,7 @@
   <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.53">
     <root id="1">
       <DateStyle>mdy</DateStyle>
-      <IntrospectionStateNumber>803</IntrospectionStateNumber>
+      <IntrospectionStateNumber>806</IntrospectionStateNumber>
       <ServerVersion>17.4</ServerVersion>
       <StartupTime>1748034346</StartupTime>
       <TimeZones>true ACDT
@@ -800,7 +800,7 @@ false Zulu
 14751||10|C|G
 14751||-9223372036854775808|U|G
 14751||10|U|G</Grants>
-      <IntrospectionStateNumber>803</IntrospectionStateNumber>
+      <IntrospectionStateNumber>806</IntrospectionStateNumber>
       <ObjectId>16426</ObjectId>
       <OwnerName>postgres</OwnerName>
     </database>
@@ -4227,8 +4227,8 @@ false Zulu
     <schema id="265" parent="2" name="public">
       <Comment>standard public schema</Comment>
       <Current>1</Current>
-      <IntrospectionStateNumber>803</IntrospectionStateNumber>
-      <LastIntrospectionLocalTimestamp>2025-05-26.22:57:07</LastIntrospectionLocalTimestamp>
+      <IntrospectionStateNumber>806</IntrospectionStateNumber>
+      <LastIntrospectionLocalTimestamp>2025-05-27.11:36:55</LastIntrospectionLocalTimestamp>
       <ObjectId>2200</ObjectId>
       <StateNumber>532</StateNumber>
       <OwnerName>pg_database_owner</OwnerName>
@@ -4271,7 +4271,7 @@ false Zulu
     </table>
     <table id="271" parent="265" name="risk_predictions">
       <ObjectId>16453</ObjectId>
-      <StateNumber>762</StateNumber>
+      <StateNumber>805</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>postgres</OwnerName>
     </table>
@@ -4440,7 +4440,19 @@ false Zulu
       <StoredType>timestamp|0s</StoredType>
       <TypeId>1114</TypeId>
     </column>
-    <foreign-key id="294" parent="271" name="risk_predictions_application_id_fkey">
+    <column id="294" parent="271" name="backend_risk_label">
+      <Position>6</Position>
+      <StateNumber>804</StateNumber>
+      <StoredType>varchar(255)|0s</StoredType>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="295" parent="271" name="backend_risk_score">
+      <Position>7</Position>
+      <StateNumber>805</StateNumber>
+      <StoredType>double precision|0s</StoredType>
+      <TypeId>701</TypeId>
+    </column>
+    <foreign-key id="296" parent="271" name="risk_predictions_application_id_fkey">
       <ColNames>application_id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>16510</ObjectId>
@@ -4449,7 +4461,7 @@ false Zulu
       <RefKeyColPositions>1</RefKeyColPositions>
       <RefTableId>16428</RefTableId>
     </foreign-key>
-    <index id="295" parent="271" name="risk_predictions_pkey">
+    <index id="297" parent="271" name="risk_predictions_pkey">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>16504</ObjectId>
@@ -4458,7 +4470,7 @@ false Zulu
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
-    <key id="296" parent="271" name="risk_predictions_pkey">
+    <key id="298" parent="271" name="risk_predictions_pkey">
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>16505</ObjectId>
       <Primary>1</Primary>
